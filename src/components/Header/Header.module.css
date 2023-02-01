@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.perfil{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.perfil:hover{
+    box-shadow: 1px 1px 10px 1px var(--red);
+}
+
+.perfil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.perfil p{
+    margin-left: 16px;
+    margin-right: 20px;
+    font-family: var(--font);
+    font-size: 1.2em;
+    color: var(--black);
+    text-transform: uppercase;
+    text-align: center;
+}

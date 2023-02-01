@@ -5,6 +5,7 @@
   --black: #000000;
   --red: #b53737;
   --font: 'Itim', cursive;
+  --background: linear-gradient(45deg, var(--red) 10%, var(--red) 60%, var(--white) 200%);
 }
 
 
