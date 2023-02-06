@@ -11,10 +11,43 @@
     border-radius: 12px;
     box-shadow: 1px 1px 10px 5px var(--black);
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
-.dia h1{
+.titulo{
+    margin-bottom: 0;
+}
+
+.titulo h1{
     font-family: var(--font);
     font-size: 2em;
     margin-left: 50px;
 }
+
+.link{
+    text-decoration: none;
+    color: var(--black);
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.link:hover{
+    border: 3px solid var(--black);
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px 1px var(--red);
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.plus h2{
+    font-size: 4em;
+    font-family: var(--font);
+}
+
+

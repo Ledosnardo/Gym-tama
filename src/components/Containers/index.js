@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { DiasSemanaContext } from '../../contexts/DiasSemana';
 import Cards from './Cards';
 import styles from './Containers.module.css';
@@ -12,9 +13,14 @@ const Containers = () => {
             {semana.map(dia => {
                 return(
                     <div className={styles.dia}>
-                        <div>
+                        <div className={styles.titulo}>
                             <h1>{dia.nome}</h1>
                         </div>
+                        <Link to='/treino/todos' className={styles.link}>
+                            <div className={styles.plus}>
+                                    <h2>+</h2>
+                            </div>
+                        </Link>
                         <div>
                             <Cards treinos={dia.treinos}/>
                         </div>

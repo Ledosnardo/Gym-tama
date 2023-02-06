@@ -1,0 +1,123 @@
+{
+    "treinos": [
+        {
+            "id": 1,
+            "nome": "Flexão do tronco.",
+            "tipo": "Abdômem",
+            "imagem": "https://www.smartfit.com.br/news/wp-content/uploads/2017/05/abdominais-800x534.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Cadeira extensora." ,
+            "tipo": "Pernas",
+            "imagem": "https://vitat.com.br/wp-content/uploads/2022/02/shutterstock_1174503379-1-scaled.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Supino com halteres." ,
+            "tipo": "Braço",
+            "imagem": "https://s.zst.com.br/cms-assets/2021/12/shutterstock_1115889854.webp"
+        },
+        {
+            "id": 4,
+            "nome": "Tríceps paralelo na cadeira." ,
+            "tipo": "Braço",
+            "imagem": "https://www.wikihow.com/images/5/58/Do-Dips-Step-21.jpeg"
+        },
+        {
+            "id": 5,
+            "nome": "Puxada aberta no pulley." ,
+            "tipo": "Costas",
+            "imagem": "https://www.fiqueinforma.com/wp-content/uploads/2008/12/puxadas.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "Flexão de braço." ,
+            "tipo": "Braço",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkTW1BSiRtDnISWDgqEkz8lVdeixaMKyvvg&usqp=CAU"
+        },
+        {
+            "id": 7,
+            "nome": "Agachamento Reto." ,
+            "tipo": "Pernas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgtY8JSM3OL91YMR--2uZ5HaxpV5wUD4S9kw&usqp=CAU"
+        },
+        {
+            "id": 8,
+            "nome": "Prancha lateral." ,
+            "tipo": "Abdômem",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEnve18hvPbRktNCysXPI_e2fY5DcIu9TRgA&usqp=CAU"
+        },
+        {
+            "id": 9,
+            "nome": "Abdominal canivete." ,
+            "tipo": "Abdômem",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQItbq7MhFhp-lnQI1WEJPzBFJm6AwECWzUIg&usqp=CAU"
+        },
+        {
+            "id": 10,
+            "nome": "Remada unilateral com elástico." ,
+            "tipo": "Braço",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIU5nt3y_I9lL02guiTGie-HvKKDUkjvMbuA&usqp=CAU"
+        },
+        {
+            "id": 11,
+            "nome": "Voador dorsal." ,
+            "tipo": "Costas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTks36UvSJRRRtMusM1Ti39EovLi6Bx9O6uQA&usqp=CAU"
+        },
+        {
+            "id": 12,
+            "nome": "Leg Press 45." ,
+            "tipo": "Pernas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGctdbiMIS5GtAzoXYFOVsUmNs446g4CmSTQ&usqp=CAU"
+        },
+        {
+            "id": 13,
+            "nome": "Flexão pike." ,
+            "tipo": "Braço",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWZMni2SgdFCsTetFbKi2mH_-tNiFa85oCA&usqp=CAU"
+        },
+        {
+            "id": 14,
+            "nome": "Remada unilateral apoiada no banco." ,
+            "tipo": "Costas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5jt_IubFB8_4EqekQqSiDajXf4pV2H9p2Ww&usqp=CAU"
+        },
+        {
+            "id": 15,
+            "nome": "Prancha." ,
+            "tipo": "Abdômem",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbVPsvUTRnzbiYPbYaUyfmvrdqpSay1ijHw&usqp=CAU"
+        },
+        {
+            "id": 16,
+            "nome": "Remada curvada HBC." ,
+            "tipo": "Costas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWncpdBMgdT-qBpF3n0jE6s2pneYnG_TxEQ&usqp=CAU"
+        },
+        {
+            "id": 17,
+            "nome": "Glúteo 4 apoios máquina." ,
+            "tipo": "Pernas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxLq-4Fdab1iOR2h56-wb8U1lIXJBY_0ksQw&usqp=CAU"
+        },
+        {
+            "id": 18,
+            "nome": "Flexão de ombros no cross." ,
+            "tipo": "Costas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSJnf0Z-osaHFwDghWFe7NX6-QlHgXZCGSeA&usqp=CAU"
+        },{
+            "id": 19,
+            "nome": "Abdominal canoa" ,
+            "tipo": "Abdômem",
+            "imagem": "https://static.meionorte.com/uploads/imagens/2021/4/21/abdominal-canoa-ed1b2e24-2630-4d00-b203-c061b6ad6ce4.jpg"
+        },
+        {
+            "id": 20,
+            "nome": "Adução" ,
+            "tipo": "Pernas",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpk26gEHDBYTuvnnNg6HzHfNjnzgRbCOJnw&usqp=CAU"
+        }
+    ]
+}
