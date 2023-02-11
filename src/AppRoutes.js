@@ -1,7 +1,8 @@
-import TreinosProvider from "contexts/Treinos";
+import DiasSemanasProvide from "contexts/DiasSemana";
+import UserContext from "contexts/UserContext";
+import UsuarioProvider from "contexts/UsuarioContext";
+import TrainingPage from "pages/TrainingPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import DiasSemanasProvide from "./contexts/DiasSemana";
-import UsuarioProvider from "./contexts/UsuarioContext";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import PageDefault from "./pages/PageDefault";
@@ -11,21 +12,15 @@ function AppRoutes() {
     <>
       <BrowserRouter>
 
-        <UsuarioProvider>
-          <TreinosProvider>
-            <DiasSemanasProvide>
-
-              <Routes>
-                <Route path='/' element={<LoginPage />} />
-
-                <Route path='/home' element={<PageDefault />}>
+        <UserContext>
+            <Routes>
+              <Route path='/' element={<LoginPage />} />
+                <Route path='/treino' element={<PageDefault />}>
                   <Route index element={<HomePage />} />
-                </Route>
-              </Routes>
-
-            </DiasSemanasProvide>
-          </TreinosProvider>
-        </UsuarioProvider>
+                  <Route path='/treino/:id' element={<TrainingPage />} />
+              </Route>
+            </Routes>
+        </UserContext>
 
       </BrowserRouter>
     </>

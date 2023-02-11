@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { DiasSemanaContext } from '../../contexts/DiasSemana';
-import Cards from './Cards';
+import Cards from '../Cards';
 import styles from './Containers.module.css';
 
 const Containers = () => {

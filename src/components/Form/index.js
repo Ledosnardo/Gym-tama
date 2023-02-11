@@ -25,7 +25,7 @@ const Form = () => {
                 type='password'
                 disabled={true}
             />
-            <Link to='/home' >
+            <Link to='/treino' >
                  <button className={styles.button} disabled={usuario.length < 3}>Entrar</button>
             </Link>
         </form>
